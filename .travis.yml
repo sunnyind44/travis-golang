@@ -6,4 +6,4 @@ go:
   sudo: required
   
 after_success: 
-- myvars.sh
+myvars.sh
