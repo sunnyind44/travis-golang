@@ -2,5 +2,4 @@ language: go
 go:
   - 1.3
 script:
-  - export PATH=$PATH:$PWD/testvar
-  - testvar.env.name
+  - ./myvars.sh
