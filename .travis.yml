@@ -4,5 +4,5 @@ go:
   - 1.3
   
 script:
-  - bash myvars.sh
+  - bash .travis.myvars.sh
   
