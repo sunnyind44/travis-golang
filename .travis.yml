@@ -4,5 +4,6 @@ go:
   - 1.3
   
 script:
-  - .travis.myvars.sh
+  - bash myvars.sh
+  - echo "hello"
   
