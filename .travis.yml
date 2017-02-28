@@ -3,5 +3,8 @@ language: go
 go:
   - 1.3
   
-script:
+  sudo: 
+  required
+  
+after_success:
   myvars.sh
