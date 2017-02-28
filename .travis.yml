@@ -3,4 +3,4 @@ go:
   - 1.3
 script:
   - export PATH=$PATH:$PWD/testvar
-  - echo name
+  - env.name
